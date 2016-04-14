@@ -6,25 +6,28 @@
 	height: 200px !important;
 }
 
+.pure-menu-item {
+	font-size: 20px;
+}
+
 .splash-container {
-	background: url('home-background.jpg') center center no-repeat fixed;
+	background: url('http://i1268.photobucket.com/albums/jj576/randerTw/home-background_zpsmflbfkxu.jpg') center center no-repeat fixed;
 	background-size: cover;
 }
 
 .splash * {
-	color: black;
-	border: none;	
+	border: none;
+}
+
+.splash h1 {
+	text-shadow: 2px 2px black;
 }
 
 #front-splash {
-	margin: -2vh 10vw 0vh -10vw;
-}
-
-#logo {
-	display: inline;
+	margin: -2vh 0vw 0vh 0vw;
+	width: 30vw;
 }
 
 #logo img {
-	height: 10vh;
 	margin: 0;
 }
