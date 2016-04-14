@@ -1,0 +1,30 @@
+// Place all the styles related to the sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.pricing-table-header {
+	height: 200px !important;
+}
+
+.splash-container {
+	background: url('home-background.jpg') center center no-repeat fixed;
+	background-size: cover;
+}
+
+.splash * {
+	color: black;
+	border: none;	
+}
+
+#front-splash {
+	margin: -2vh 10vw 0vh -10vw;
+}
+
+#logo {
+	display: inline;
+}
+
+#logo img {
+	height: 10vh;
+	margin: 0;
+}
